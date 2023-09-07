@@ -29,6 +29,10 @@ def from_table(sql):
     print("db-> 耗时: {}  sql: {}".format((time.time() - last_time) * 1000, sql))
     return df
 
+def batch_async_to_table():
+    pass
+    # data
+
 
 def stock_daily(code, start_time, end_time):
     """
